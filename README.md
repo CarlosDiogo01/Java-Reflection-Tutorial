@@ -1,11 +1,5 @@
 Introduction tutorial to Java Reflection
 ====
-
-Sources
-------------
-https://docs.oracle.com/javase/tutorial/reflect/
-https://www.journaldev.com/1789/java-reflection-example-tutorial
-
 Reflection is commonly used by programs which require the ability to examine or modify the runtime behavior of applications running in the Java virtual machine.
 This is a relatively advanced feature and should be used only by developers who have a strong grasp of the fundamentals of the language. 
 With that caveat in mind, reflection is a powerful technique and can enable applications to perform operations which would otherwise be impossible
@@ -53,5 +47,8 @@ The use of reflection can result in unexpected side-effects, which may render co
 Reflective code breaks abstractions and therefore may change behavior with upgrades of the platform.
 
 
+Sources
+------------
+https://docs.oracle.com/javase/tutorial/reflect/
 
-
+https://www.journaldev.com/1789/java-reflection-example-tutorial

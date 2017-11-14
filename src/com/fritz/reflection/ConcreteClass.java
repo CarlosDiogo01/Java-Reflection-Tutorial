@@ -1,19 +1,23 @@
 package com.fritz.reflection;
 
+import java.lang.reflect.Method;
+
+// @Deprecated		/* Uncomment when you test Annotation
 public class ConcreteClass extends BaseClass implements BaseInterface {
 	
 	/* Class attributes */
 	public int publicInt;
+	private int nameOfPrivateVariable;
 	private String privateString = "This is a private String from ConcreteClass";
 	protected boolean protectedBoolean;
 	Object defaultObject;
 	
-	
-	/* Set */
+	/* Set - This is the only constructor that will be reflected by getConstructors() method */
 	public ConcreteClass(int i) {
 		this.publicInt = i;
+		this.nameOfPrivateVariable = i;
 	}
-	
+
 	
 	/* Methods */
 	
@@ -57,3 +61,4 @@ public class ConcreteClass extends BaseClass implements BaseInterface {
 	/* interface members */
 	public interface ConcreteClassPublicInterface {}
 }
+

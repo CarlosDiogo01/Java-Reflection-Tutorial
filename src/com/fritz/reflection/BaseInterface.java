@@ -7,5 +7,5 @@ public interface BaseInterface {
 	
 	/* Methods classes that implements this interface must override */
 	void method1();
-	int method2(String str);
+	int	 method2(String str);
 }
