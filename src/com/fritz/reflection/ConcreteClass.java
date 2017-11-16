@@ -2,7 +2,7 @@ package com.fritz.reflection;
 
 import java.lang.reflect.Method;
 
-// @Deprecated		/* Uncomment when you test Annotation
+// @Deprecated		/* Uncomment when you test Annotation */
 public class ConcreteClass extends BaseClass implements BaseInterface {
 	
 	/* Class attributes */
